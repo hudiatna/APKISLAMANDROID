@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Nama Surat"
+            android:layout_width="@dimen/left_label_width"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_nama_surat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_asma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Ayat :"
+            android:layout_width="@dimen/left_label_width"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_ayat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Diturunkan"
+            android:layout_width="@dimen/left_label_width"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_diturunkan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Artinya"
+            android:layout_width="@dimen/left_label_width"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_artinya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
